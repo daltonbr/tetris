@@ -1,18 +1,21 @@
 fileFormatVersion: 2
 guid: 0ab793bed7f93a74584ca932e0305d4e
-timeCreated: 1519681184
+timeCreated: 1519698987
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: mino_square
+    21300000: mino_o
     21300002: square
     21300004: mino_l
     21300006: mino_z
     21300008: mino_J
     21300010: mino_s
     21300012: mino_t
-    21300014: tetromino_long
+    21300014: tetromino_i0
     21300016: MainBackground
+    21300018: tetromino_i1
+    21300020: tetromino_i2
+    21300022: tetromino_i3
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -109,7 +112,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mino_square
+      name: mino_o
       rect:
         serializedVersion: 2
         x: 179
@@ -207,12 +210,12 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tetromino_long
+      name: tetromino_i0
       rect:
         serializedVersion: 2
         x: 244
         y: 90
-        width: 32
+        width: 8
         height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -228,6 +231,48 @@ TextureImporter:
         y: 0
         width: 160
         height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tetromino_i1
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 90
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tetromino_i2
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 90
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tetromino_i3
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 90
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
